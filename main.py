@@ -21,3 +21,8 @@ galg = [
   "|",
   "------------"
 ]
+
+time.sleep(1)
+
+print ('We gaan beginnen ...')
+time.sleep(0.5)
