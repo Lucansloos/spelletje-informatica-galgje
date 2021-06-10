@@ -43,3 +43,4 @@ while turns > 0:
            toonwoord=toonwoord + ('_') 
            letters_not_guesed += 1   
      print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)      
+     print ()
