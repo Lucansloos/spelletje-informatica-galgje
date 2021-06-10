@@ -35,12 +35,29 @@ turns = 10
 while turns > 0:
 
   letters_not_guesed = 0             
-    toonwoord=''
-    for char in woord: 
-        if char in guesses:  
-           toonwoord=toonwoord + (char)
-        else:
-           toonwoord=toonwoord + ('_') 
-           letters_not_guesed += 1   
-     print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)      
-     print ()
+  toonwoord=''
+  for char in woord: 
+      if char in guesses:  
+          toonwoord=toonwoord + (char)
+      else:
+          toonwoord=toonwoord + ('_') 
+          letters_not_guesed += 1   
+  print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)      
+  print ()
+
+
+
+
+
+
+
+
+
+     
+     
+     
+     
+     
+     
+     
+  
