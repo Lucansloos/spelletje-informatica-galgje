@@ -69,6 +69,12 @@ while turns > 0:
         nr_of_to_print_lines -=1
         print ("")
 
+      x = guess.isalpha()
+      if x is False:
+        print("")
+        print("Je hebt iets anders ingevuld dan een letter, strafpunt voor het invullen van een letter terwijl je een woord moet raden!")
+      
+
         print ('Jammer, fout ...')
         print (naam, 'je hebt nog', + turns, 'levens')
 
