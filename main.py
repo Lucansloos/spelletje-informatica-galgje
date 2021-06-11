@@ -45,6 +45,9 @@ while turns > 0:
   print ('Woord:',toonwoord, '. Al gegokte letters:', guesses)      
   print ()
 
+  if letters_not_guesed == 0:
+        print ()
+        print ('...')
 
 
 
