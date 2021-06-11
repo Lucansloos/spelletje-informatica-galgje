@@ -70,7 +70,13 @@ while turns > 0:
         print ("")
 
         print ('Jammer, fout ...')
+        print (naam, 'je hebt nog', + turns, 'levens')
 
+        if turns == 0: 
+          print ()
+          print ('...')
+          time.sleep(1)
+          print ('Jammer', naam, 'je hebt verloren, het woord was:', woord)
 
 
 
